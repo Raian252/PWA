@@ -19,18 +19,25 @@ header h1 {
 
 nav {
     margin: 20px auto 0px;
-    padding: 10px;
-    width: 90%;
+    padding: 3px;
+    /* width: 95%; */
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 nav ul li {
-    margin-right: 12px;
+    margin-right: 9px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 nav ul li a {
